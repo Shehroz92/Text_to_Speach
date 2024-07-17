@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world ! , This is a demo of text to speach "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/entertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter here , what you want to listen"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+
+
+        />
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press to listened the enter text "
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+
+
+        />
+
+
+</LinearLayout>
